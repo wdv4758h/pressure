@@ -1,0 +1,10 @@
+<div id="test"></div>
+<script>
+    var total = 100;
+    var video = '<video src="videos/big_buck_bunny_480p.webm" autoplay controls></video>';
+    for (i = 0; i < total; i++) {
+        var tmp = document.createElement('div');
+        tmp.innerHTML = video;
+        document.getElementById('test').appendChild(tmp);
+    }
+</script>
